@@ -4,13 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(140deg, rgb(36, 36, 223), rgb(7, 7, 166));
+    background-color: #142f44;
 }
 
 .calculator {
     padding: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #a2bbcf;
+    border: 3px solid #205b7a;
+    box-shadow:inset;
 }
 form input {
     border: none;
@@ -18,13 +20,30 @@ form input {
     width: 60px;
     height: 60px;
     font-size: 16px;
-    background-color: rgb(87, 87, 153);
+    background-color: #205b7a;
     margin: 2px;
     border-radius: 10px;
-    color: white;
+    color: 	#bdcad4;
     font-weight: bolder;
     cursor: pointer;
 }
 form input[type="button"]:hover {
-    background-color: blueviolet;
+    background-color: #1d3849;
+}
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 20px 0 px;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: rgb(36, 30, 30);
+}
+form input.equal {
+    width: 125px;
+
 }
