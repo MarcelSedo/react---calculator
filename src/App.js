@@ -6,6 +6,7 @@ function App() {
   const [value, setValue] = useState("")
   return ( 
   <div className="container">
+    <div className="title"><h1>Kalkulačka lvl 3000</h1></div>
     <div className="calculator">
       <form action="">
         <div className="display">

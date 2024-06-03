@@ -7,12 +7,21 @@
     background-color: #142f44;
 }
 
+.title {
+    position: absolute;
+    bottom: 41rem;
+    color: #a2bbcf;
+    text-shadow: black 2px 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
 .calculator {
     padding: 20px;
     border-radius: 10px;
     background-color: #a2bbcf;
     border: 3px solid #205b7a;
-    box-shadow:inset;
+    box-shadow: 5px 5px 5px;
 }
 form input {
     border: none;
@@ -26,9 +35,12 @@ form input {
     color: 	#bdcad4;
     font-weight: bolder;
     cursor: pointer;
+    box-shadow: black 1.5px 1.5px;
 }
 form input[type="button"]:hover {
     background-color: #1d3849;
+    border: 1px solid black;
+    color: white;
 }
 form .display {
     display: flex;
@@ -42,6 +54,7 @@ form .display input {
     font-size: 40px;
     padding: 5px 10px;
     background-color: rgb(36, 30, 30);
+    box-shadow: #1d3849 1.5px 1.5px;
 }
 form input.equal {
     width: 125px;
